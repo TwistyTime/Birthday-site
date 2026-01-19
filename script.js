@@ -79,8 +79,10 @@ nextBtn.onclick = () => {
             if (messageEl) {
                 messageEl.style.display = "block";
                 messageEl.innerText = "Hah! Fooled You!! 🎉";
+                 photoEl.classList("hidden");
 
             }
         };
     }
 };
+

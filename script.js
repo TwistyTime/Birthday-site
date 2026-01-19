@@ -77,6 +77,10 @@ nextBtn.onclick = () => {
                 Photo1.style.margin = "0 auto";
                 
             }
+
+            const Photo = document.getElementById("Photo");
+            Photo.classList.add("hidden");
+            
             const messageEl = document.getElementById("message");
             if (messageEl) {
                 messageEl.style.display = "block";
@@ -87,6 +91,7 @@ nextBtn.onclick = () => {
         };
     }
 };
+
 
 
 

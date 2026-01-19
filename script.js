@@ -64,7 +64,8 @@ nextBtn.onclick = () => {
             if (photoEl) {
                 // use a web-friendly relative path and show the image
                 photoEl.src = "assets/fooled.jpeg";
-                photoEl.classList.remove("hidden");
+                
+                photoEl.classList("hidden");
                 
             }
             const Photo1 = document.getElementById("Photo1");
@@ -74,16 +75,18 @@ nextBtn.onclick = () => {
                 Photo1.height = 120;
                 Photo1.style.display = "block";
                 Photo1.style.margin = "0 auto";
+                
             }
             const messageEl = document.getElementById("message");
             if (messageEl) {
                 messageEl.style.display = "block";
                 messageEl.innerText = "Hah! Fooled You!! 🎉";
-                photoEl.classList("hidden");
+               
 
             }
         };
     }
 };
+
 
 

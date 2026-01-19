@@ -70,8 +70,8 @@ nextBtn.onclick = () => {
             const Photo1 = document.getElementById("Photo1");
             if (Photo1) {
                 Photo1.classList.remove("hidden");
-                Photo1.width = 70;
-                Photo1.height = 100;
+                Photo1.width = 100;
+                Photo1.height = 120;
                 Photo1.style.display = "block";
                 Photo1.style.margin = "0 auto";
             }
@@ -79,10 +79,11 @@ nextBtn.onclick = () => {
             if (messageEl) {
                 messageEl.style.display = "block";
                 messageEl.innerText = "Hah! Fooled You!! 🎉";
-                 photoEl.classList("hidden");
+                photoEl.classList("hidden");
 
             }
         };
     }
 };
+
 
